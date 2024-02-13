@@ -71,9 +71,12 @@ public class Employee extends Person{
         System.out.println("jobTitle "+jobTitle +" Employee name "+getName());
     }
 
+
     @Override
     public String toString() {
-        return getClass().getSimpleName()+"{" +
+        return "Employee{" +
+                "name='" + getName() + '\'' +
+                ", gender='" + getGender() + '\'' +
                 "employeeId='" + employeeId + '\'' +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +

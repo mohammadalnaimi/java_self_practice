@@ -10,9 +10,15 @@ public class EmployeeClients {
 
         System.out.println("________________________________");
 
-        Developer developer = new Developer("Alixa","Female","A002","Developer",110_000,"Amazon","java");
+        Developer developer = new Developer("Sophia","female","a002","Developer",120_000,"Amazon","Python");
         System.out.println(developer);
         developer.work();
+
+        System.out.println("______________________________________");
+        Driver driver = new Driver("Sal","Male","a003","Driver",80000,"Walmart");
+        System.out.println(driver);
+        driver.work();
+
 
 
     }
