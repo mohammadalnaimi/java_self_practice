@@ -4,6 +4,7 @@ public class Developer extends Employee{
     private String prgrammingLangauge;
     public Developer (String name, String gender, String employeeId, String jobTitle, double salary, String companyName,String prgrammingLangauge){
         super(name,gender,employeeId,jobTitle,salary,companyName);
+        setName(prgrammingLangauge);
     }
 
     public String getPrgrammingLangauge() {

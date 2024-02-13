@@ -28,7 +28,7 @@ public class Person {
     }
     public void setName(String name){
 
-        if (gender == null || gender.isBlank()  || gender.isEmpty()) {
+        if (name == null || name.isBlank()  || name.isEmpty()) {
             throw new RuntimeException("Invalid entry can't be null empty or blank");
         }
         this.name=name;
