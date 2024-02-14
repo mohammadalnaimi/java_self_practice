@@ -22,8 +22,31 @@ public class CarClient {
         bmw.drive();
         bmw.start();
         bmw.stop();
+        System.out.println("_____________________________________________");
 
+        Audi audi = new Audi("Audi","Q7",2020,25_000,"RED");
+        System.out.println(audi);
+        audi.Selfdrive();
+        audi.stop();
+        audi.drive();
+        audi.start();
+        System.out.println("_______________________________________");
 
+        Tesla tesla = new Tesla("Tesla","se",2020,15000,"Black");
+        System.out.println(tesla);
+        tesla.drive();
+        tesla.SelfDrive();
+        tesla.stop();
+        tesla.start();
+
+        System.out.println("_____________________________________");
+        Cydeo cydeo = new Cydeo("Cydeo","SDET",2024,15000,"gold");
+        System.out.println(cydeo);
+        cydeo.drive();
+        cydeo.fly();
+        cydeo.stop();
+        cydeo.start();
+        cydeo.SelfDrive();
 
 
 
